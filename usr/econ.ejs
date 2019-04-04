@@ -1,91 +1,351 @@
 <!-- Any section element inside of this container is displayed as a slide -->
 <div class="slides">
+  <section class="fragments">
+    <h2>有关行为经济学的热门问题</h2>
+    <!-- <img width="30%" src="img/p733985641.webp" alt=""> -->
+    <div>
+      <img width="30%" src="img/p733985791.webp" alt="" />
+      <img width="30%" src="img/p2368451994.webp" alt="" />
+      <img width="30%" src="img/p2541863863.webp" alt="" />
+    </div>
+
+    <p class="fragment">
+      感谢：reveal.js, socket.io, notell.
+    </p>
+
+    <p class="fragment">
+      License：Anti-996 License 1.0
+    </p>
+  </section>
+
+  <section>
+    <h1>我是一个 PPT</h1>
+  </section>
+
+  <section>
+    <h1>我是中文</h1>
+  </section>
+
+  <section>
     <section>
-        <h2>有关行为经济学的热门问题</h2>
-        <!-- <img width="30%" src="img/p733985641.webp" alt=""> -->
-        <div>
-            <img width="30%" src="img/p733985791.webp" alt="">
-            <img width="30%" src="img/p2368451994.webp" alt="">
-            <img width="30%" src="img/p2541863863.webp" alt="">
-        </div>
+      <h1>Behavioral Finance</h1>
+    </section>
+    <section>
+      <a href="#" class="image navigate-down">
+        <img width="60%" src="img/1.jpg" alt="" />
+      </a>
+    </section>
+  </section>
+
+  <section>
+    <section>
+      <img src="img/a.jpg" alt="" />
+    </section>
+    <section>
+      <img src="img/b.png" alt="" />
+    </section>
+  </section>
+
+  <section>
+    <img src="img/behavioral-finance-overview-7-638.jpg" alt="" />
+  </section>
+
+  <section>
+    <section>
+      <h2>传统经济学</h2>
+      <ul>
+        <li>宏观、微观</li>
+        <li>理性主义</li>
+        <li>看不见的手</li>
+        <li>有效市场</li>
+        <li>信息共享</li>
+      </ul>
+    </section>
+    <section>
+      <h2>行为经济学</h2>
+      <ul>
+        <li>社会学，心理学</li>
+        <li>非理性</li>
+        <li>情绪</li>
+        <li>偏见</li>
+        <li>有限信息</li>
+      </ul>
+    </section>
+  </section>
+
+  <section class="fragments">
+    <h3>你愿意付出多少钱玩这个游戏？</h3>
+    <ul>
+      <li>硬币朝上： $15</li>
+      <li>硬币朝下： $5</li>
+    </ul>
+
+    <p class="fragment">
+      期望收益: p = 1/2 * 15 + 1/2 * 5 = $10
+    </p>
+
+    <p class="fragment">
+      期望效用(Utility): U(G) = 1/2 U(15) + 1/2 U(5)
+    </p>
+    <p class="fragment">
+      付出 = $G
+    </p>
+  </section>
+
+  <section>
+    <img src="img/s1.png" alt="" />
+  </section>
+
+  <section>
+    <img src="img/s2.png" alt="" />
+  </section>
+
+  <section class="fragments">
+    <h3>你愿意付出多少钱玩这个游戏？</h3>
+    <ul>
+      <li>1. 硬币朝上： $2</li>
+      <li>2. 硬币朝下： $4</li>
+      <li>3. 硬币朝下： $8</li>
+      <li>...</li>
+    </ul>
+
+    <p class="fragment">
+      期望收益: p = 50% * 2 + 25% * 4 + 12.5% * 8 + ... = 1 + 1 + 1 + ...
+    </p>
+
+    <p class="fragment">
+      Utility: p = 50% * U(2) + 25% * U(4) + 12.5% * U(8) + ... = ?
+    </p>
+
+    <p class="fragment">
+      Utility U(x) = x^0.7 => p = $4.35
+      <img src="img/s3.png" width="30%" alt="" />
+    </p>
+  </section>
+  <section>
+    <h3>买咖啡，还是买甜甜圈</h3>
+    <img src="img/s4.png" alt="" />
+  </section>
+
+  <section class="">
+    <section>
+      <h3>无差异曲线</h3>
+      <img src="img/s5.png" alt="" />
+    </section>
+    <section>
+      <p class="">
+        <img src="img/s6.png" alt="" />
+      </p>
+    </section>
+    <section>
+      <p class="">
+        <img src="img/s7.png" alt="" />
+      </p>
+    </section>
+  </section>
+
+  <section>
+    <h3>我们是不是理性的？</h3>
+    <ul>
+      <li>越多越好吗？</li>
+      <li>一致性原则？</li>
+      <li>独立性原则?</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>后悔理论 (遗憾理论， Regret Theory)</h3>
+    <p>预期和现实的比较产生的情绪</p>
+    <ul>
+      <li>
+        例如，当在熟悉和不熟悉品牌之间进行选择时，消费者可能考虑选择不熟悉品牌造成效果不佳时的遗憾要比选择熟悉品牌的遗憾要大，因而，消费者很少选择不熟悉品牌。
+      </li>
+      <li>
+        不作为偏误(Omission Bias)： 流感病毒 1/10 感染，1/100 死亡, 10 / 10，000
+        死亡概率
+      </li>
+      <ul>
+        <li>
+          主动型疫苗： 5 / 10000 感染概率
+        </li>
+        <li>
+          被动型疫苗： 10 / 10000 感染概率
+        </li>
+      </ul>
+    </ul>
+  </section>
+
+  <section>
+    <section>
+      <h3>Risk Aversion: 你选择哪个？</h3>
+      <ul>
+        <li>A: 50$</li>
+        <li>B: 硬币朝上 $0, 朝下：100$</li>
+      </ul>
     </section>
 
     <section>
-        <h1>我是一个 PPT</h1>
+      <h3>Risk Aversion: 你选择哪个？</h3>
+      <ul>
+        <li>A: 5000$</li>
+        <li>B: 硬币朝上 $0, 朝下：10000$</li>
+      </ul>
+    </section>
+  </section>
+
+  <section>
+    <h3>Risk Seeking: 你选择哪个？</h3>
+    <p>抢劫啦：</p>
+    <ul>
+      <li>A: 50$</li>
+      <li>B: 硬币朝上 $0, 朝下：100$</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Loss Aversion: 愿意付多少钱玩？</h3>
+    <ul>
+      <li>A: 硬币朝上: 赢 2000$</li>
+      <li>B: 硬币朝下: 输 1000$</li>
+    </ul>
+    <p>
+      P = 1/2 * 2000 - 1/2 * 1000 = $500
+    </p>
+  </section>
+
+  <section>
+    <section>
+      <h3>前景理论(展望理论, Prospect Theory)</h3>
+      <img src="img/s8.png" alt="" />
     </section>
 
     <section>
-        <h1>我是中文</h1>
+      <h3>前景理论(展望理论, Prospect Theory)</h3>
+      <img src="img/best_1845.jpg" width="80%" alt="" />
     </section>
-    
-    <section>
-        <section>
-            <h1>Behavioral Finance</h1>
-        </section>
-        <section>
-            <a href="#" class="image navigate-down">
-                <img width="60%" src="img/1.jpg" alt="">
-            </a>
-        </section>
-    </section>
+  </section>
 
+  <section>
     <section>
-        <section>
-            <img src="img/a.jpg" alt="">
-        </section>
-        <section>
-            <img src="img/b.png" alt="">
-        </section>
-    </section>
-
-
-    <section>
-        <img src="img/behavioral-finance-overview-7-638.jpg" alt="">
+      <h3>Disposition Effect</h3>
+      <p>已有：$30,000</p>
+      <ul>
+        <li>A: +10,000$</li>
+        <li>B: 硬币头朝上： +20,000$ 头朝下：$0</li>
+      </ul>
     </section>
 
     <section>
-        <section>
-            <h2>传统经济学</h2>
-            <ul>
-                <li>宏观、微观</li>
-                <li>理性主义</li>
-                <li>看不见的手</li>
-                <li>有效市场</li>
-                <li>信息共享</li>
-
-            </ul>
-        </section>
-        <section>
-            <h2>行为经济学</h2>
-            <ul>
-                <li>社会学，心理学</li>
-                <li>非理性</li>
-                <li>情绪</li>
-                <li>偏见</li>
-                <li>有限信息</li>
-            </ul>
-        </section>
+      <h3>Disposition Effect</h3>
+      <p>已有：$50,000</p>
+      <ul>
+        <li>C: -10,000$</li>
+        <li>D: 硬币头朝上： -20,000$ 头朝下：-$0</li>
+      </ul>
     </section>
 
-    <section id="fragments">
-        <h3>你愿意付出多少成本玩这个游戏？</h3>
-        <ul>
-            <li>硬币朝上： $15</li>
-            <li>硬币朝下： $5</li>
-        </ul>
-
-        <p class="fragment">
-        期望收益: p = 1/2 * 15 + 1/2 * 5 = $10
-        </p>
-
-        <p class="fragment">
-            期望效用(Utility): U(G) = 1/2 U(15) + 1/2 U(5)
-            
-        </p>
-        <p class="fragment">
-            付出 = $G
-        </p>
-
-
+    <section>
+      <p>A 和 B 一致： $40,000</p>
+      <p>C 和 D 一致： 50%: $30,000, 50%: $50,000</p>
+      <p>期望收益全部一致</p>
+      <h3>你为什么会这样选择？</h3>
     </section>
+
+    <section>
+      <h4>错误:</h4>
+      <ul>
+        <li>卖出正在涨的股票</li>
+        <li>持有下跌的股票</li>
+      </ul>
+      <h4>应该：</h4>
+      <ul>
+        <li>Run gains, cut loses: 追涨杀跌</li>
+      </ul>
+    </section>
+  </section>
+
+  <section>
+    <h3>考一考</h3>
+    <ul>
+      <li>工资年发，月发，周发</li>
+      <li>旅游景点的通票</li>
+    </ul>
+  </section>
+
+  <section>
+    <section class="fragments">
+      <h3>概率</h3>
+      <p>随机取出两张牌（总共52张），第二张是K的概率有多大?</p>
+      <p class="fragment">1/13</p>
+    </section>
+
+    <section>
+      <h3>概率</h3>
+      <p>随机取出两张牌，第一张是红色，第二张是黑色的概率？</p>
+    </section>
+
+    <section class="fragments">
+      <h3>概率</h3>
+      <p>抛硬币，假设前三次都朝上，第四次还朝上的概率有多大？</p>
+      <p class="fragment">1/2</p>
+    </section>
+  </section>
+
+  <section>
+    <h3>法官的难题</h3>
+    <p>出租车谋杀</p>
+    <ul>
+      <li>绿色出租车 85%, 蓝色出租车 15%， 总数 1000</li>
+      <li>一个目击者</li>
+      <li>目击者的测试： 80% 准确率辨认颜色</li>
+    </ul>
+  </section>
+  <section>
+    <img src="img/s9.png" alt="" />
+  </section>
+
+  <section>
+    <h3>相关性 VS 因果关系</h3>
+    <p>别把牛市里的成功归结于你的聪明才智</p>
+  </section>
+
+  <section>
+    <section>
+      <h3>概率的权重</h3>
+      <p>俄罗斯轮盘</p>
+      <ul>
+        <li>你愿意付出多少钱让4颗子弹变为3颗？</li>
+        <li>你愿意付出多少钱让1颗子弹变为0颗？</li>
+        <li>子弹装满了，你愿意付出多少钱减少一颗？</li>
+      </ul>
+      <img src="img/revolver-cylinder.jpg" alt="" />
+    </section>
+    <section>
+      <h3>概率的权重</h3>
+      <img src="img/s10.png" width="60%" alt="" />
+    </section>
+
+    <section>
+      <h3>概率的权重</h3>
+      <img src="img/s11.png" width="60%" alt="" />
+    </section>
+  </section>
+
+  <section>
+    <h3>启发效应，概率的滥用</h3>
+    <ul>
+      <li>新闻里天天播放的事件概率很低</li>
+      <li>飞机出事的概率低于被椰子砸死的概率</li>
+      <li>手机在厕所进水的概率</li>
+    </ul>
+  </section>
+  <section>
+    <h3>博弈论</h3>
+    <p>囚徒困境: 个人的最大效用不等于整体的效用</p>
+    <img src="img/q.jpeg" alt="" />
+  </section>
+
+  <section>
+    <h3>谢谢大家！</h3>
+  </section>
 </div>
